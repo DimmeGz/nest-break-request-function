@@ -1,11 +1,11 @@
 Simple app which can break request
 
+1. Returns 'Hello, World!' after 30 seconds
 ```bash
 {baseUrl}/hello/:id
 ```
-Returns 'Hello, World!' after 30 seconds
 
+2. Breaks previous request
 ```bash
 {baseUrl}/break/:id
 ```
-Breaks previous request
